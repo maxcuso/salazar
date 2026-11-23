@@ -12,9 +12,7 @@
 
 На руке носит старинную печатку с гербом рода Штормгард. Вещь, несомненно, благородная, фамильная и чрезвычайно важная. По крайней мере, так утверждает её владелец.
 
-[center][img]https://maxcuso.github.io/salazar/assets/bbcode/playful.svg[/img][/center]
-
-[center][img]https://maxcuso.github.io/salazar/assets/bbcode/preferences.svg[/img][/center]
+[center][img width=200]https://maxcuso.github.io/salazar/assets/bbcode/playful.svg[/img] [img width=420]https://maxcuso.github.io/salazar/assets/bbcode/preferences.svg[/img][/center]
 
 [center][img]https://maxcuso.github.io/salazar/assets/images/smirk.svg[/img][/center]
 
