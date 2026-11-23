@@ -1,4 +1,4 @@
-[center][img]https://maxcuso.github.io/salazar/assets/bbcode/header.svg[/img][/center]
+[center][img]https://maxcuso.github.io/salazar/assets/bbcode/header.svg?v=paper-alpha-2[/img][/center]
 
 [center][size=14][color=#367CC4]Рост[/color][/size] [size=28]171[/size] [size=14]см[/size]   •   [size=14][color=#367CC4]Вес[/color][/size] [size=28]72[/size] [size=14]кг[/size]   •   [size=14][color=#367CC4]Цвет волос[/color][/size] [img]https://maxcuso.github.io/salazar/assets/bbcode/swatch-hair.svg[/img]   •   [size=14][color=#367CC4]Цвет глаз[/color][/size] [img]https://maxcuso.github.io/salazar/assets/bbcode/swatch-eyes.svg[/img][/center]
 
@@ -12,7 +12,7 @@
 
 На руке носит старинную печатку с гербом рода Штормгард. Вещь, несомненно, благородная, фамильная и чрезвычайно важная. По крайней мере, так утверждает её владелец.
 
-[center][img width=200]https://maxcuso.github.io/salazar/assets/bbcode/playful.svg[/img] [img width=420]https://maxcuso.github.io/salazar/assets/bbcode/preferences.svg[/img][/center]
+[center][img width=200]https://maxcuso.github.io/salazar/assets/bbcode/playful.svg[/img] [img width=420]https://maxcuso.github.io/salazar/assets/bbcode/preferences.svg?v=paper-alpha-2[/img][/center]
 
 [center][img]https://maxcuso.github.io/salazar/assets/images/smirk.svg[/img][/center]
 
@@ -104,6 +104,6 @@
 
 А если нет — тем хуже для мира.
 
-[center][img]https://maxcuso.github.io/salazar/assets/bbcode/inventory.svg[/img][/center]
+[center][img]https://maxcuso.github.io/salazar/assets/bbcode/inventory.svg?v=paper-alpha-2[/img][/center]
 
 [center][img]https://maxcuso.github.io/salazar/assets/bbcode/desk.svg[/img][/center]
