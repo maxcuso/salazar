@@ -683,3 +683,9 @@ blockquote {
   h2 { break-after: avoid; }
   .ThemeToggle { display: none; }
 }
+
+/* Мобильный iframe: скрываем только полоску, прокрутка пальцем остаётся. */
+@media (max-width: 680px) {
+  html { scrollbar-width: none; }
+  html::-webkit-scrollbar { display: none; }
+}
