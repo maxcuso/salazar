@@ -1,10 +1,10 @@
 [center][img]https://maxcuso.github.io/salazar/assets/bbcode/header.svg[/img][/center]
 
-[table][tbody][tr][td][b]Рост[/b]
-171 см[/td][td][b]Вес[/b]
-72 кг[/td][td][b]Цвет волос[/b]
-#B59189[/td][td][b]Цвет глаз[/b]
-#AADDF6[/td][/tr][/tbody][/table]
+[table][tbody][tr][td][size=14][color=#367CC4]Рост[/color][/size]
+[size=28]171[/size] [size=14]см[/size][/td][td][size=14][color=#367CC4]Вес[/color][/size]
+[size=28]72[/size] [size=14]кг[/size][/td][td][size=14][color=#367CC4]Цвет волос[/color][/size]
+[img]https://maxcuso.github.io/salazar/assets/bbcode/swatch-hair.svg[/img][/td][td][size=14][color=#367CC4]Цвет глаз[/color][/size]
+[img]https://maxcuso.github.io/salazar/assets/bbcode/swatch-eyes.svg[/img][/td][/tr][/tbody][/table]
 
 [iright][img]https://maxcuso.github.io/salazar/assets/images/full.svg[/img][/iright]
 
@@ -54,10 +54,10 @@
 
 Но об этом, конечно, никто не спрашивал.
 
-[table][tbody][tr][td][b]Род[/b]
-Штормгард[/td][td][b]Происхождение[/b]
-За пределами континента[/td][td][b]Текущий статус[/b]
-Квестпостной[/td][/tr][/tbody][/table]
+[table][tbody][tr][td][size=13][color=#367CC4]Род[/color][/size]
+[size=18]Штормгард[/size][/td][td][size=13][color=#367CC4]Происхождение[/color][/size]
+[size=18]За пределами континента[/size][/td][td][size=13][color=#367CC4]Текущий статус[/color][/size]
+[size=18]Квестпостной[/size][/td][/tr][/tbody][/table]
 
 [iright][img]https://maxcuso.github.io/salazar/assets/images/family-crest.svg[/img][/iright]
 
