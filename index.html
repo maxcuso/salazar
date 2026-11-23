@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Салазар Стормгард — юный маг, авантюрист и наследник старинного рода. Литературная анкета персонажа.">
+  <title>Салазар Стормгард — анкета персонажа</title>
+  <!-- Статическая анкета. Для публикации нужны index.html, style.css, script.js и assets.
+       Весь основной текст находится прямо здесь; сборка и сервер не требуются. -->
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+<body>
+  <main aria-label="Анкета Салазара Стормгарда">
+    <button class="ThemeToggle" type="button" data-action="theme" aria-label="Переключить тему" title="Переключить тему">
+      <svg class="Sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19M5 19l1.4-1.4M17.6 6.4 19 5"/></svg>
+      <svg class="Moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" aria-hidden="true"><path d="M20.4 13.3A8.5 8.5 0 0 1 10.7 3.6a8.5 8.5 0 1 0 9.7 9.7Z"/></svg>
+    </button>
+
+    <!-- 01. Шапка: имя в две строки, короткие определения, рисунок и герб. -->
+    <header class="Banner">
+      <div>
+        <h1><span>САЛАЗАР</span><span>СТОРМГАРД</span></h1>
+        <div class="Tags" aria-label="Возраст и род занятий">
+          <span class="paper-highlight">15 лет</span>
+          <span class="paper-highlight">Маг</span>
+          <span class="paper-highlight">Авантюрист</span>
+          <span class="paper-highlight">Наследник</span>
+        </div>
+        <blockquote>Не зеркала вина, что скривлен рот</blockquote>
+      </div>
+      <figure class="Figure Figure--hero"><img src="./assets/images/hero.svg" width="335" height="306" alt="Салазар сидит на каменной ограде и смотрит вдаль" loading="eager" decoding="async"></figure>
+      <figure class="Figure Figure--crest"><img src="./assets/images/crest.svg" width="95" height="127" alt="Герб рода Стормгард: светлая шестилучевая звезда на сине-зелёном щите" loading="eager" decoding="async"></figure>
+    </header>
+
+    <!-- 02. Внешность. Цвета волос и глаз заданы переменными у образцов. -->
+    <section class="Step Step--appearance" aria-label="Внешность">
+      <!-- Параметры занимают всю ширину; текст и рисунок начинаются следующей строкой. -->
+      <dl class="Facts Facts--measure">
+        <div><dt>Рост</dt><dd>171 <small>см</small></dd></div>
+        <div><dt>Вес</dt><dd>72 <small>кг</small></dd></div>
+        <div><dt>Цвет волос</dt><dd><span class="ColorSwatch" style="--swatch:#B59189">#B59189</span></dd></div>
+        <div><dt>Цвет глаз</dt><dd><span class="ColorSwatch" style="--swatch:#AADDF6">#AADDF6</span></dd></div>
+      </dl>
+      <div>
+        <p>Пятнадцать лет, а уже весь в шрамах. Не то чтобы их было много, но нескольких тонких полос на лице вполне достаточно, чтобы при желании изображать бывалого искателя приключений. Желающих, как правило, находится ровно один.</p>
+          <p>Коренастый, широкоплечий, с короткими взъерошенными волосами и физиономией, на которой подозрительно часто появляется самодовольная ухмылка. Выражение это, впрочем, обманчиво: иногда он действительно понимает, что происходит. Подбородок широкий, но черты лица ещё по-детски мягкие, а взгляд наполнен наязвейшей усмешкой, словно собеседник только что сказал нечто исключительно глупое и теперь должен самостоятельно догадаться, что именно.</p>
+          <p>В одежде предпочитает простор. Мантии, балахоны, длинные рубахи, свободные штаны — всё, что позволяет выглядеть солиднее собственных пятнадцати лет и не стесняет движений. Особенную слабость питает к многослойным одеяниям с широкими рукавами, в которых при должном старании можно сойти за настоящего волшебника. Правда, пока скорее за волшебника, который случайно надел мантию своего учителя.</p>
+          <p>На руке носит старинную печатку с гербом рода Стормгард. Вещь, несомненно, благородная, фамильная и чрезвычайно важная. По крайней мере, так утверждает её владелец.</p>
+      </div>
+      <figure class="Figure Figure--full"><img src="./assets/images/full.svg" width="205" height="502" alt="Салазар в полный рост: просторная мантия, широкие рукава и дорожные башмаки" loading="lazy" decoding="async"></figure>
+    </section>
+
+    <!-- 03. Характер: вступительная картинка и предпочтения, затем мимические портреты.
+         Step--reverse меняет сторону рисунка только на широком экране. -->
+    <section class="Character" aria-label="Характер">
+      <div class="Character-top">
+        <figure class="Figure Figure--playful Figure--underlay"><img class="Figure-underlay" src="./assets/images/playful-underlay.svg" width="274" height="205" alt="" aria-hidden="true" loading="lazy" decoding="async"><img src="./assets/images/playful.svg" width="274" height="205" alt="Салазар ухмыляется, изображая пальцами рога" loading="lazy" decoding="async"></figure>
+        <div class="Preferences">
+          <dl class="Facts Facts--preferences" aria-label="Что нравится и не нравится Салазару">
+            <div><dt aria-label="Нравится"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 21 3.6 13A5.6 5.6 0 0 1 12 5.6 5.6 5.6 0 0 1 20.4 13Z"/></svg></dt><dd><ul>
+                <li><span class="paper-highlight">Сплетни</span></li>
+                <li><span class="paper-highlight">Быть первым</span></li>
+                <li><span class="paper-highlight">Похвалу наставника</span></li>
+                <li><span class="paper-highlight">Споры</span></li>
+                <li><span class="paper-highlight">Чёрный юмор</span></li>
+                <li><span class="paper-highlight">Кислые ягоды</span></li>
+                <li><span class="paper-highlight">Острую еду</span></li>
+                <li><span class="paper-highlight">Морепродукты</span></li>
+                <li><span class="paper-highlight">Море</span></li>
+                <li><span class="paper-highlight">Крыши</span></li>
+                <li><span class="paper-highlight">Грозу</span></li>
+                <li><span class="paper-highlight">Первый снег</span></li>
+                <li><span class="paper-highlight">Старые дома</span></li>
+                <li><span class="paper-highlight">Звёздное небо</span></li>
+              </ul></dd></div>
+            <div><dt aria-label="Не нравится"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10.8 3.4A5.6 5.6 0 0 0 3.6 13L12 21l-2-8 4-4-4-3Zm3.2 0 1.4 3.4-4 3.8 3 3.4L13 20l7.4-7A5.6 5.6 0 0 0 14 3.4Z"/></svg></dt><dd><ul>
+                <li><span class="paper-highlight">Фехтование</span></li>
+                <li><span class="paper-highlight">Рыбу</span></li>
+                <li><span class="paper-highlight">Нарушенные обещания</span></li>
+                <li><span class="paper-highlight">Ранние подъёмы</span></li>
+                <li><span class="paper-highlight">Скуку</span></li>
+                <li><span class="paper-highlight">Лес</span></li>
+                <li><span class="paper-highlight">Диких зверей</span></li>
+                <li><span class="paper-highlight">Одиночество</span></li>
+                <li><span class="paper-highlight">Давать обещания</span></li>
+              </ul></dd></div>
+          </dl>
+          <figure class="Figure Figure--tassel" aria-hidden="true"><img src="./assets/images/tassel.svg" width="27" height="94" alt="" loading="lazy" decoding="async"></figure>
+        </div>
+      </div>
+      <div class="Step Step--portrait">
+        <div>
+          <p>Хорошее мнение о себе нужно беречь. Особенно если больше никто его не разделяет. Стормгард придерживается этого принципа с завидным постоянством. Он умён, талантлив, благороден происхождением и, вне всякого сомнения, предназначен для чего-нибудь выдающегося. По крайней мере, сам он в этом совершенно уверен.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/smirk.svg" width="114" height="125" alt="Самодовольная улыбка Салазара" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--reverse Step--portrait">
+        <div>
+          <p>Все мы стремимся урвать любые кусочки счастья, до которых способны дотянуться. Ему нравится выглядеть рассудительным, опытным и значительным. Поэтому чужую глупость он встречает с терпением существа, которое уже многое повидало за свои пятнадцать лет.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/proud.svg" width="156" height="120" alt="Салазар с высокомерно поднятым подбородком" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--portrait">
+        <div>
+          <p>Любопытство у него бесстыжее, с той жестокостью, какая бывает только у детей. Вежливость и такт придумали взрослые, которые, вообще-то, ничего не смыслят в веселье. Какого цвета была твоя боль, когда тебе отрубали ногу? Почему ты плачешь? Болеть ведь уже нечему...</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/surprised.svg" width="139" height="125" alt="Салазар с любопытством смотрит на собеседника" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--reverse Step--portrait">
+        <div>
+          <p>Людей он любит значительно больше, чем показывает. Просто большинство из них ужасно утомительны, задают глупые вопросы и почему-то обижаются на совершенно безобидные замечания. Собственными переживаниями Стормгард делится неохотно, предпочитая отшучиваться или переводить разговор. Ему куда проще помочь человеку, чем признаться, что тот ему дорог.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/uneasy.svg" width="111" height="130" alt="Неуверенное выражение лица Салазара" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--portrait">
+        <div>
+          <p>К повседневным обязанностям относится с куда меньшим воодушевлением. Природа наградила его достаточно живым умом, чтобы быстро разбираться в интересующих вещах, и достаточно скверным характером, чтобы игнорировать остальные. Особенно если последние требуют терпения, усердия или раннего подъёма. Словом, всего того, что явно не пристало представителю старинного рода.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/bored.svg" width="138" height="140" alt="Салазар скучает, подперев щёку рукой" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--reverse Step--portrait">
+        <div>
+          <p>Особенно это касается Даэнорта и его второго воспитанника. Мнение первого для Стормгарда имеет исключительную ценность, хотя признавать это вслух совершенно необязательно. Мнение второго, разумеется, ничего не значит. Именно поэтому его приходится постоянно оспаривать.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/annoyed.svg" width="122" height="125" alt="Недовольный Салазар смотрит в сторону" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--portrait">
+        <div>
+          <p>Вообще, жизнь слишком коротка, чтобы тратить её на бессмысленные тревоги. Узнать побольше, забраться повыше, попробовать невозможное — вот занятия, достойные внимания. Прошлое уже случилось, будущее ещё не наступило, а настоящее обычно предлагает достаточно возможностей, чтобы испортить себе репутацию прямо сегодня.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/laugh.svg" width="150" height="125" alt="Салазар смеётся" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--reverse Step--portrait">
+        <div>
+          <p>И всё-таки иногда, когда шутки заканчиваются, а привычная самоуверенность оказывается бесполезной, Стормгард становится непривычно тихим. Он хорошо знает, что значит остаться одному. И хотя за прошедшие годы научился почти не вспоминать об этом, мысль однажды снова потерять обретённый дом пугает его куда сильнее, чем хотелось бы.</p>
+          <p>Но об этом, конечно, никто не спрашивал.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/quiet.svg" width="160" height="127" alt="Салазар задумчиво опустил взгляд" loading="lazy" decoding="async"></figure>
+      </div>
+    </section>
+
+    <!-- 04. Биография: ранние воспоминания, лес, новый дом, учёба и дорога.
+         Абзацы разбиты по смыслу иллюстраций. Весь исходный текст сохранён. -->
+    <section class="Story" aria-label="Биография">
+      <!-- Краткие сведения перед биографией. -->
+      <dl class="Facts Facts--summary" aria-label="Род, происхождение и текущий статус">
+        <div><dt>Род</dt><dd>Стормгард</dd></div>
+        <div><dt>Происхождение</dt><dd>За пределами континента</dd></div>
+        <div><dt>Текущий статус</dt><dd>Квестпостной</dd></div>
+      </dl>
+      <div class="Step">
+        <div>
+          <p>У каждого приличного рода должна быть история. Желательно древняя, славная и полная выдающихся предков. У Стормгардов, несомненно, была именно такая. К сожалению, единственный доступный представитель семейства помнит её из рук вон плохо.</p>
+<p>От прежней жизни у мальчишки сохранились обрывки воспоминаний: большой дом, морской воздух, знакомые лица и фамилия, которую полагалось произносить с достоинством. Чем ближе память подбирается к последним дням его детства, тем менее охотно выдаёт подробности. Иногда кажется, будто он помнит больше, чем способен объяснить. Иногда — будто и помнить особенно нечего.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/family-crest.svg" width="116" height="170" alt="Старинный герб рода Стормгард" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--reverse">
+        <div>
+          <p>Зато осталась печатка. Старинная, с фамильным гербом, совершенно настоящая. Достаточное основание, чтобы считать себя наследником почтенного рода, о котором, к величайшему недоразумению, никто из окружающих никогда не слышал.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/ring.svg" width="110" height="89" alt="Фамильная печатка Стормгардов" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step">
+        <div>
+          <p>Каким образом десятилетний Стормгард оказался посреди лесов Зеленолесья, он объяснить не может. Зато последующие недели запомнил куда лучше, чем хотелось бы.</p>
+          <p>Холод, голод, колючие заросли, ночёвки где придётся и совершенно возмутительное отсутствие прислуги. Лес не делал никаких скидок на происхождение, не проявлял уважения к фамильному гербу и вообще отличался крайне дурными манерами.</p>
+        </div>
+        <figure class="Figure Figure--underlay"><img class="Figure-underlay" src="./assets/images/forest-underlay.svg" width="258" height="128" alt="" aria-hidden="true" loading="lazy" decoding="async"><img src="./assets/images/forest.svg" width="258" height="128" alt="Салазар пробирается через колючие лесные заросли" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--reverse">
+        <div>          
+<p>К моменту, когда его обнаружил Даэнорт, мальчишка представлял собой жалкое зрелище: исхудавший, грязный, исцарапанный и порядком измученный. Несколько тонких шрамов на лице остались ему на память об этих скитаниях.</p>
+<p>Даэнорт оказался эльфом-авантюристом, основателем поселения у ущелья и местной Гильдии искателей приключений. По каким причинам он решил взять незнакомого ребёнка под своё попечительство, история умалчивает. Возможно, из сострадания. Возможно, из чувства долга. Сам Стормгард, разумеется, не исключал и того, что эльф с первого взгляда распознал в нём задатки выдающейся личности.</p>
+<p>Так у него появился новый дом.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/wounded.svg" width="214" height="197" alt="Измученный Салазар осматривает ссадины на ногах" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step">
+        <div>
+          <p>К сожалению, единственным воспитанником Даэнорта он не был. Примерно в то же время под опекой эльфа оказался другой мальчишка, его ровесник из истребленного рода Карн’Вэйн. Знакомство двух наследников едва ли можно было назвать многообещающим. Впрочем, неприязнь быстро приобрела характер заклятой дружбы.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/studying.svg" width="247" height="123" alt="Юный Салазар лежит над раскрытой книгой" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--reverse">
+        <div>
+          <p>Следующие пять лет прошли среди гильдейских хлопот, уроков, тренировок и рассказов искателей, возвращавшихся из дальних странствий. Стормгард охотно слушал истории об удивительных местах, древних развалинах и могущественных волшебниках.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/book.svg" width="250" height="103" alt="Раскрытая книга с магическими записями" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step">
+        <div>
+          <p>Особенно его занимала магия. Она обещала ответы на множество вопросов и, что немаловажно, позволяла задавать ещё больше.</p>
+<p>Соперничество с Карн’Вэйном подливало масла в огонь. Стоило одному добиться успеха, как второй немедленно находил повод продемонстрировать собственные способности.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/lantern.svg" width="208" height="164" alt="Салазар увлечённо изучает устройство фонаря" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step Step--reverse">
+        <div>
+          <p>Если успех повторить не удавалось, следовало подвергнуть сомнению условия испытания. Впрочем, при появлении чего-нибудь действительно интересного все разногласия откладывались.</p>
+<p>Тем временем поселение у ущелья росло. Появлялись новые дома, мосты и лестницы, а вместе с ними — всё больше искателей приключений. Гильдия принимала поручения, отправляла отряды в дальние земли и предоставляла двум воспитанникам почти неисчерпаемый материал для зависти.</p>
+        </div>
+        <figure class="Figure"><img src="./assets/images/reading.svg" width="221" height="193" alt="Салазар читает книгу, сидя на полу" loading="lazy" decoding="async"></figure>
+      </div>
+      <div class="Step">
+        <div>
+          <p>Отряды возвращались с трофеями, историями и разнообразными увечьями. Стормгарду пока доставались главным образом только истории.</p>
+<p>К пятнадцати годам он окончательно убедился, что достаточно вырос для самостоятельных приключений. Даэнорт, разумеется, мог придерживаться иного мнения. Но разве это когда-нибудь мешало обсуждать вопрос снова?</p>
+<p>В конце концов, Стормгард не собирался вечно оставаться подмастерьем. Где-то за пределами родного города лежал огромный мир, полный загадок, опасностей и возможностей. Возможно, там даже найдётся кто-нибудь, кому знаком его фамильный герб.</p>
+<p>А если нет — тем хуже для мира.</p>
+        </div>
+        <figure class="Figure Figure--underlay"><img class="Figure-underlay" src="./assets/images/hood-underlay.svg" width="215" height="260" alt="" aria-hidden="true" loading="lazy" decoding="async"><img src="./assets/images/hood.svg" width="215" height="260" alt="Салазар в капюшоне с уверенно поднятой головой" loading="lazy" decoding="async"></figure>
+      </div>
+    </section>
+
+    <!-- 05. Единственный Note: инвентарь. Вес указан в килограммах.
+         Для добавления вещи скопируйте строку tr, сохранив три ячейки. -->
+    <section class="Inventory" aria-label="Личные вещи">
+      <aside class="Note">
+        <table aria-label="Личные вещи: название, внешний вид и вес">
+          <colgroup><col><col><col></colgroup>
+          <tbody>
+              <tr><th scope="row">Фамильная печатка</th><td>Старинное кольцо с крупным щитком и гербом Стормгардов</td><td><span class="Weight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8h8l4 13H4L8 8Z"/><circle cx="12" cy="5" r="3"/></svg><span>0.03 кг</span></span></td></tr>
+              <tr><th scope="row">Записная книжка</th><td>Небольшая книжка в потёртой тёмной обложке</td><td><span class="Weight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8h8l4 13H4L8 8Z"/><circle cx="12" cy="5" r="3"/></svg><span>0.2 кг</span></span></td></tr>
+              <tr><th scope="row">Письменные принадлежности</th><td>Перья, чернильница и сложенные листы бумаги</td><td><span class="Weight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8h8l4 13H4L8 8Z"/><circle cx="12" cy="5" r="3"/></svg><span>0.15 кг</span></span></td></tr>
+              <tr><th scope="row">Фляга с водой</th><td>Походная фляга в кожаном чехле с ремешком</td><td><span class="Weight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8h8l4 13H4L8 8Z"/><circle cx="12" cy="5" r="3"/></svg><span>0.8 кг</span></span></td></tr>
+              <tr><th scope="row">Колбы</th><td>Небольшие стеклянные сосуды с пробками</td><td><span class="Weight"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 8h8l4 13H4L8 8Z"/><circle cx="12" cy="5" r="3"/></svg><span>0.3 кг</span></span></td></tr>
+          </tbody>
+        </table>
+      </aside>
+      <figure class="Figure Figure--backpack Figure--underlay"><img class="Figure-underlay" src="./assets/images/backpack-underlay.svg" width="166" height="158" alt="" aria-hidden="true" loading="lazy" decoding="async"><img src="./assets/images/backpack.svg" width="166" height="158" alt="Кожаный рюкзак с ремешками и свёрнутой бумагой" loading="lazy" decoding="async"></figure>
+      <figure class="Figure Figure--button" aria-hidden="true"><img src="./assets/images/button.svg" width="53" height="51" alt="" loading="lazy" decoding="async"></figure>
+    </section>
+
+    <!-- 06. Нижнее обрамление, по центру после инвентаря. -->
+    <figure class="Figure Figure--desk Figure--underlay" aria-hidden="true"><img class="Figure-underlay" src="./assets/images/desk-underlay.svg" width="408" height="135" alt="" aria-hidden="true" loading="lazy" decoding="async"><img src="./assets/images/desk.svg" width="408" height="135" alt="" loading="lazy" decoding="async"></figure>
+  </main>
+</body>
+</html>
